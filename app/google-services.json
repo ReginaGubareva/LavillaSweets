@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "642748242726",
+    "firebase_url": "https://lavillasweets.firebaseio.com",
+    "project_id": "lavillasweets",
+    "storage_bucket": "lavillasweets.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642748242726:android:ee70f743202fca76d53fe7",
+        "android_client_info": {
+          "package_name": "app.assem.lavillasweets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642748242726-vtvs0duessls6gk4td5hgj0j3h9rr4tj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.assem.lavillasweets",
+            "certificate_hash": "8c5fd65c42aebb9050d920591cca3fbaae5d1645"
+          }
+        },
+        {
+          "client_id": "642748242726-ekja8sjlps5mccsj3lqsun3nfk9t0nel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjHJzJl8EFPuJoGBuyswOrmmDQdc6vIG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642748242726-ekja8sjlps5mccsj3lqsun3nfk9t0nel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

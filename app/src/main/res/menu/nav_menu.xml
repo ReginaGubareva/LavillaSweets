@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_menu_orders"
+        android:title="@string/title_make_order"
+        android:icon="@drawable/ic_orders_40dp" />
+    <item
+        android:id="@+id/nav_menu_orders_for_director"
+        android:icon="@drawable/ic_orders_40dp"
+        android:title="@string/title_order_for_director" />
+    <item
+        android:id="@+id/nav_menu_settings"
+        android:icon="@drawable/ic_settings_40dp"
+        android:title="@string/nav_settings" />
+</menu>

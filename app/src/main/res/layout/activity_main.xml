@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFC"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/image_view_cake"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/cake2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/image_view_cake"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_lavilla_sweets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_view_cake"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Lavilla Sweets"
+                android:textColor="#6B1979"
+                android:textSize="60sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edit_text_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp40"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/background_edit_text"
+                android:hint="Email"
+                android:layout_marginTop="@dimen/dp20"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/dp10"
+                android:textColor="#00111111"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/edit_text_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp40"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="@dimen/dp20"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/background_edit_text"
+                android:hint="Password"
+                android:inputType="textWebPassword"
+                android:paddingLeft="@dimen/dp10"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/edit_text_rewrite_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp40"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="@dimen/dp20"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/background_edit_text"
+                android:hint="Re-write-password"
+                android:inputType="textWebPassword"
+                android:paddingLeft="@dimen/dp10"
+                android:textSize="24sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#5E156D"
+                android:fontFamily="sans-serif"
+                android:text="Login"
+                android:textColor="#F1F0EE"
+                android:textColorHint="#EDEEE7"
+                android:textSize="30sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:id="@+id/text_view_question"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Don't have an account? "
+                    android:textColor="#0C0C0C"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text_view_signup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/text_view_question"
+                    android:clickable="true"
+                    android:onClick="toggleLoginMode"
+                    android:text="Sign up"
+                    android:textColor="@color/link"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
